@@ -56,12 +56,12 @@ export default function Footer() {
         <div className="ftr-brand">
           <img src="/img/logo-white.png" alt="ProExpertise" className="ftr-logo" />
           <p>
-            Independent digital marketing studio. Strategy, creative and media under one roof —
+            Independent digital marketing studio. Strategy, creative and media under one roof -
             working worldwide, shipping weekly.
           </p>
           {/* <div className="mono-label ftr-status">
             <i className="dot" />
-            All systems creative — replies within 24h
+            All systems creative - replies within 24h
           </div> */}
         </div>
 
@@ -85,13 +85,15 @@ export default function Footer() {
 
         <div className="ftr-col">
           <span className="mono-label ftr-col-title">Contact</span>
-          <a href={`mailto:${FOOTER.email}`} className="ftr-link" data-cursor="link">
-            {FOOTER.email}
+          <span className="ftr-link" >
+            {/* {FOOTER.email} */}
+            Kangra, Himachal Pradesh 176225
+          </span>
+          <a href={`mailto:hello@proexpertise.in`} className="ftr-link" data-cursor="link">
+            {/* {FOOTER.phone} */}
+            hello@proexpertise.in
           </a>
-          <a href={`tel:${FOOTER.phone.replace(/[^+\d]/g, '')}`} className="ftr-link">
-            {FOOTER.phone}
-          </a>
-          <span className="ftr-link ftr-static">Worldwide — remote first</span>
+          {/* <span className="ftr-link ftr-static">Worldwide - remote first</span> */}
           <Magnetic strength={0.25}>
             <button
               type="button"
@@ -119,8 +121,8 @@ export default function Footer() {
       </h2>
 
       <div className="ftr-bot mono-label">
-        <span>© 2026 — All rights reserved</span>
-        <span className="ftr-clock">Your time — {time}</span>
+        <span>© 2026 - All rights reserved</span>
+        <span className="ftr-clock">Your time - {time}</span>
         <a href="#contact" onClick={(e) => e.preventDefault()} className="ftr-bot-link">
           Privacy & Policy
         </a>

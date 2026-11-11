@@ -98,7 +98,7 @@ export default function Header() {
       <header className={`hd ${light ? 'light' : ''} ${scrolled ? 'scrolled' : ''}`}>
         {/* <div className="hd-top mono-label">
           <span>{dateStr}</span>
-          <span className="hd-clock">{timeStr} — Local time</span>
+          <span className="hd-clock">{timeStr} - Local time</span>
           <span className="hd-status">
             <i className="dot" />
             Available worldwide
@@ -161,8 +161,8 @@ export default function Header() {
           ))}
         </nav>
         <div className="menu-foot">
-          <a href={`mailto:${FOOTER.email}`} className="mono-label menu-mail">
-            {FOOTER.email}
+          <a href={`mailto:hello@proexpertise.in`} className="mono-label menu-mail">
+            hello@proexpertise.in
           </a>
           <div className="menu-socials mono-label">
             {FOOTER.socials.map((s) => (

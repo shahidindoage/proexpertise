@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap, REDUCED } from '../lib/anim';
 
-/** Wraps children in a magnetic field — the element leans toward the mouse. */
+/** Wraps children in a magnetic field - the element leans toward the mouse. */
 export default function Magnetic({ children, strength = 0.35, className = '' }) {
   const ref = useRef(null);
 

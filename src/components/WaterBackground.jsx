@@ -82,7 +82,7 @@ void main() {
   vec3 shallow = vec3(0.105, 0.145, 0.162);
   vec3 col = mix(deep, shallow, depth * 0.9);
 
-  /* wave height shading — bright crests, dark troughs (makes rings read) */
+  /* wave height shading - bright crests, dark troughs (makes rings read) */
   col += clamp(hc * 0.6, -0.12, 0.30) * vec3(0.50, 0.68, 0.76);
 
   /* drifting caustics, distorted by the ripples */

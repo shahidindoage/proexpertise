@@ -115,7 +115,7 @@ export default function Services() {
         {/* <span className="mono-label">(02) Services & Work</span> */}
         <h2 className="svc-title-big">WHAT WE DO BEST</h2>
         <p className="svc-sub">
-          From the first frame to the final report — five disciplines, one roof, zero boring
+          From the first frame to the final report - five disciplines, one roof, zero boring
           work.
         </p>
       </div>

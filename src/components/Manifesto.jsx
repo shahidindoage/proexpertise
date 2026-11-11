@@ -24,7 +24,7 @@ export default function Manifesto() {
       const bigCount = root.querySelector('.big-count');
 
       if (!REDUCED) {
-        /* statement — word-by-word scrub reveal */
+        /* statement - word-by-word scrub reveal */
         gsap
           .timeline({
             scrollTrigger: {
@@ -159,7 +159,7 @@ export default function Manifesto() {
           {words}
         </h2>
         <p className="mnf-para">
-          We&apos;re a creative crew from the hills of Kangra, HP — films, design, reels and
+          We&apos;re a creative crew from the hills of Kangra, HP - films, design, reels and
           campaigns built under one roof. Small town. Big-stage ideas. Not a boring pixel in
           sight.
         </p>
@@ -173,7 +173,7 @@ export default function Manifesto() {
             </span>
             <span className="stat-plus">+</span>
           </div>
-          <p className="stat-label mono-label">Brands scaled — superbly reviewed</p>
+          <p className="stat-label mono-label">Brands scaled - superbly reviewed</p>
           <div className="ava-row">
             {AVATARS.map((src) => (
               <img key={src} src={src} alt="" className="ava" loading="lazy" />

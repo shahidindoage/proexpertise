@@ -31,16 +31,16 @@ export const SERVICES = [
   {
     num: '01',
     title: 'Video Production & Photography',
-    desc: 'Cinematic brand films, editorial photography and social reels — shot, cut and color-graded in-house. We frame stories people actually finish.',
+    desc: 'Cinematic brand films, editorial photography and social reels - shot, cut and color-graded in-house. We frame stories people actually finish.',
     tags: ['Brand Films', 'Product Shoots', 'Social Reels', 'Color Grading'],
     projects: [
       {
-        name: 'NOVAKICK™',
-        blurb: 'Launch film + product stills for a DTC sneaker drop — sold out in 72 hours.',
+        name: 'NOVAKICK',
+        blurb: 'Launch film + product stills for a DTC sneaker drop - sold out in 72 hours.',
         img: '/img/proj-nova.jpg',
       },
       {
-        name: 'REELCRAFT™',
+        name: 'REELCRAFT',
         blurb: 'Reels engine: 42M organic views for a music app in one quarter.',
         img: '/img/proj-reel.jpg',
       },
@@ -49,7 +49,7 @@ export const SERVICES = [
   {
     num: '02',
     title: 'Branding & Marketing',
-    desc: 'Positioning, identity and campaigns that make brands impossible to confuse — and then impossible to ignore.',
+    desc: 'Positioning, identity and campaigns that make brands impossible to confuse - and then impossible to ignore.',
     tags: ['Positioning', 'Identity', 'Campaigns', 'Guidelines'],
     projects: [
       {
@@ -67,7 +67,7 @@ export const SERVICES = [
   {
     num: '03',
     title: 'Design Solutions',
-    desc: 'Design systems, packaging, print and pixel-perfect digital assets — every touchpoint speaking one visual language.',
+    desc: 'Design systems, packaging, print and pixel-perfect digital assets - every touchpoint speaking one visual language.',
     tags: ['Design Systems', 'Packaging', 'Print', 'UI Assets'],
     projects: [
       {
@@ -76,7 +76,7 @@ export const SERVICES = [
         img: '/img/proj-artisan.jpg',
       },
       {
-        name: 'KOPILISTIC™',
+        name: 'KOPILISTIC',
         blurb: 'Packaging + editorial design turning 38% of readers into subscribers.',
         img: '/img/proj-kopi.jpg',
       },
@@ -85,7 +85,7 @@ export const SERVICES = [
   {
     num: '04',
     title: 'Digital Marketing',
-    desc: 'SEO, content engines and full-funnel paid campaigns — engineered around one metric that matters: profitable growth.',
+    desc: 'SEO, content engines and full-funnel paid campaigns - engineered around one metric that matters: profitable growth.',
     tags: ['SEO', 'Content', 'Meta Ads', 'Google Ads'],
     projects: [
       {
@@ -103,7 +103,7 @@ export const SERVICES = [
   {
     num: '05',
     title: 'Media Planning',
-    desc: 'Media planning that buys attention smartly — right channel, right moment, right price, measured to the rupee.',
+    desc: 'Media planning that buys attention smartly - right channel, right moment, right price, measured to the rupee.',
     tags: ['Strategy', 'Budget Planning', 'Buying', 'Analytics'],
     projects: [
       {
@@ -123,14 +123,14 @@ export const SERVICES = [
 export const TESTIMONIALS = [
   {
     quote:
-      'They rebuilt our entire funnel — creative, landing pages, media. Conversions doubled in a quarter, and for the first time our CAC went down while we scaled.',
+      'They rebuilt our entire funnel - creative, landing pages, media. Conversions doubled in a quarter, and for the first time our CAC went down while we scaled.',
     name: 'Elijah Gibson',
     role: 'Founder of Novakick™',
     img: '/img/avatar-1.jpg',
   },
   {
     quote:
-      'ProExpertise treats our budget like it is their own money. Every report ends with a recommendation, never an excuse. Rare, refreshing — and it shows in our pipeline.',
+      'ProExpertise treats our budget like it is their own money. Every report ends with a recommendation, never an excuse. Rare, refreshing - and it shows in our pipeline.',
     name: 'Sarah Chen',
     role: 'CMO of Halcyon Hotels',
     img: '/img/avatar-2.jpg',
@@ -155,9 +155,9 @@ export const FOOTER = {
   email: 'hello@proexpertise.studio',
   phone: '+1 (415) 555-0134',
   socials: [
-    { label: 'Instagram', href: 'https://instagram.com/proexpertise' },
-    { label: 'LinkedIn', href: 'https://linkedin.com/company/proexpertise' },
-    { label: 'Behance', href: 'https://behance.net/proexpertise' },
-    { label: 'X / Twitter', href: 'https://x.com/proexpertise' },
+    { label: 'Instagram', href: '#' },
+    { label: 'LinkedIn', href: '#' },
+    { label: 'Behance', href: '#' },
+    { label: 'X / Twitter', href: '#' },
   ],
 };

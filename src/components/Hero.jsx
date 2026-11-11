@@ -23,7 +23,7 @@ export default function Hero({ started }) {
   useLayoutEffect(() => {
     const root = rootRef.current;
     const ctx = gsap.context(() => {
-      /* Scroll-out parallax — created once, position is stable at scroll 0 */
+      /* Scroll-out parallax - created once, position is stable at scroll 0 */
       if (!REDUCED) {
         gsap.to('.hero-inner', {
           yPercent: -10,
@@ -35,7 +35,7 @@ export default function Hero({ started }) {
 
       if (!started) return;
 
-      /* Intro choreography — plays as the preloader curtain lifts */
+      /* Intro choreography - plays as the preloader curtain lifts */
       if (REDUCED) return;
 
       const tl = gsap.timeline({ defaults: { ease: 'power4.out' } });
@@ -60,7 +60,7 @@ export default function Hero({ started }) {
 
       <div className="hero-inner">
         <div className="hero-eyebrow">
-          <span className="mono-label">ProExpertise — Digital Marketing Studio</span>
+          <span className="mono-label">ProExpertise - Digital Marketing Studio</span>
         </div>
 
         <h1 className="hero-title">
@@ -81,7 +81,7 @@ export default function Hero({ started }) {
 
         <div className="hero-foot">
           <p className="hero-sub">
-            Your audience scrolls 90 meters a day. We give them a reason to stop — and a story
+            Your audience scrolls 90 meters a day. We give them a reason to stop - and a story
             worth sharing.
           </p>
           <Magnetic>
